@@ -1,0 +1,35 @@
+.TH man 2 "26 October 2020" "1.0" "_printf man page"
+
+.SH NAME
+
+.B _printf
+
+- Holberton project to emulate printf.
+
+.SH SYNOPSIS
+
+_printf
+
+.SH DESCRIPTION
+
+A variadic function to print out arguments as given datatypes, with seperator t
+ext, depending on other arguments passed to it.
+
+.SH OPTIONS
+
+.B _printf(const char *format, ...)
+
+takes first argument as characters to use as separator, second argument as the \
+format to print with, and the remaining arguments as what exactly to print
+
+.SH SEE ALSO
+
+man printf
+
+.SH BUGS
+
+Bugs are fake.
+
+.SH AUTHOR
+
+Chad Calvert and Alexander Sweet
